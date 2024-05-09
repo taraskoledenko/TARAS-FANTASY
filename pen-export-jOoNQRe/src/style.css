@@ -1,0 +1,146 @@
+URL('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+  line-height:150px;
+ color:Gainsboro;
+}
+
+h2{
+  font-size: 50px;
+    text-align: center;
+  color:Khaki;
+}
+.text {
+    width: 300px;
+}
+
+.right {
+    text-align: right;
+}
+
+
+p {
+    font-size: 90px;
+    color: rgb(0, 255, 110);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(93, 165, 85);
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: DarkSlateGray;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+  position:absolute;
+  top:850px;
+}
+
+.gallery img {
+    opacity: 0.5;
+    width: 150px;
+    height: 200px;
+
+  
+}
+
+.gallery img:hover {
+    opacity: 1;
+    border: 6px solid rgb(81, 154, 86);
+    width: 200px;
+    height: 250px;
+    transition: 1s ease-out;
+    padding: 5px;
+  
+}
+
+
+
+
+a:hover{
+ background-image: linear-gradient(white, lightblue);
+ box-shadow: 0 10px 5px 0 rgb(2, 55, 1), 0 20px 5px 0 green;
+ transition: 0.5s linear;
+
+}
+
+
+footer{
+  background-image:url(https://i.pinimg.com/originals/b6/bd/f8/b6bdf84deea038ad0666e13c438c7ee4.jpg) ;
+  border-radius: 50px;
+  height:200px;
+  margin-top: 30px;
+  line-height:200px;
+  text-align:center;
+  
+}
+
+
+main{
+  background-image: url(https://www.bhmpics.com/downloads/wallpaper-shelves/4.tekstura-derevo-polki-chernyy.jpg);
+  border-radius: 30px;
+  wight:180px;
+  top:500px;
+  height:800px;
+  background-position:center;
+
+}
+
+
+.hh{
+  dishlay:flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+header{
+  background-image: url(https://w.forfun.com/fetch/4f/4ff1b96324266830f9b04a84a1aed5e2.jpeg);
+  border-radius: 30px;
+  background-position:center;
+  height:-500px;
+}
+
+h5{
+  color:Azure;
+  font-size:30px;
+  
+}  
+
+
+
+
+
+h3{
+  color:Gainsboro;
+  font-size: 50px;
+  line-height:100px;
+}
+
+.tt{
+ position:absolute;
+  top: 570px;
+}
